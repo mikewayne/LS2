@@ -2,7 +2,7 @@
 #so that the program repeats itself after each input/print iteration
 #asking for a new number each time through.  The program keeps
 #running until user types q or Q.
-lineNum = nil
+lineNum = nil #don't need I believe since I never use it outside the loop 
 loop do
   p "How many output lines do you want? Enter a number>=3 (Q to quit): "
   lineNum = gets.chomp

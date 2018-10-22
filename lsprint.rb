@@ -9,7 +9,6 @@ loop do
   end
 end
 
-
 while numLines>0
   p "Launch School is the best!"
   numLines -= 1
